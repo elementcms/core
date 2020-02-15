@@ -1,3 +1,5 @@
 <?php
 
-Route::get('/element', 'Genericmilk\Element\Element@Page');
+Route::prefix('element')->group(function () {
+    Route::get('/', 'Genericmilk\Element\Core\Ui@Dashboard');
+});

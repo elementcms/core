@@ -9,12 +9,12 @@
         {
             $this->setupConfig(); // Load config
             $this->loadRoutesFrom(__DIR__.'/routes/web.php'); // Import routes
-            $this->loadViewsFrom(__DIR__.'/views', 'element'); // Import biews
+            $this->loadViewsFrom(__DIR__.'/views', 'element'); // Import views
         }
         public function register()
         {
             // Import controllers
-            $this->app->make('Genericmilk\Element\Element');
+            $this->app->make('Genericmilk\Element\Core\Ui');
             
         }
 
