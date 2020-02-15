@@ -1,13 +1,13 @@
 <?php
 
 declare(strict_types=1);
-namespace Genericmilk\Holiday\Facades;
+namespace Genericmilk\Element\Facades;
 use Illuminate\Support\Facades\Facade;
 
-class Holiday extends Facade
+class Element extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'Holiday';
+        return 'Element';
     }
 }

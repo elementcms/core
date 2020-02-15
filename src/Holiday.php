@@ -1,20 +1,20 @@
 <?php
 
-namespace Genericmilk\Holiday;
+namespace Genericmilk\Element;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use DB;
 
-class Holiday extends Controller
+class Element extends Controller
 {
     public function Page(){
         $Api = (object)[
             'canSeeDb' => $this->canSeeDb(),
             'Migrations' => $this->MigrationsDir()
         ];
-        return view('holiday::hello')->with('Api',$Api);
+        return view('element::hello')->with('Api',$Api);
     }
 
 

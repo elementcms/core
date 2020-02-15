@@ -1,3 +1,3 @@
 <?php
 
-Route::get('/holiday', 'Genericmilk\Holiday\Holiday@Page');
+Route::get('/element', 'Genericmilk\Element\Element@Page');

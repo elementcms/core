@@ -1,5 +1,5 @@
 {
-    "name": "genericmilk/holiday",
+    "name": "genericmilk/element",
     "description": "Easily manage, create and rollback your migrations in a user friendly dashboard",
     "keywords": ["laravel", "database", "migrations"],
     "license": "MIT",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Genericmilk\\Holiday\\": "src/"
+            "Genericmilk\\Element\\": "src/"
         }
     },
     "minimum-stability": "dev",
@@ -25,11 +25,14 @@
         },
         "laravel": {
             "providers": [
-                "Genericmilk\\Holiday\\ServiceProvider"
+                "Genericmilk\\Element\\ServiceProvider"
             ]
         }
     },
     "require-dev": {
-        "laravel/framework": "6.x.x"
+        "laravel/framework": "6.x.x",
+        "genericmilk/cooker": "^2.2.0",
+        "genericmilk/telephone": "^1.5.2",
+        "genericmilk/rollout": "^1.0.0"
     }
 }

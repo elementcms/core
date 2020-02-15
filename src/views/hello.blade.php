@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Genericmilk">
-    <title>Holiday</title>
+    <title>Element</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -69,7 +69,7 @@
   <body class="bg-light">
     <div class="container">
         <div class="py-5 hero">
-            <h1>🏝 Holiday</h1>
+            <h1>🏝 Element</h1>
             <h2>By Genericmilk</h2>
             <hr>
             @if($Api->canSeeDb)
@@ -78,7 +78,7 @@
                 </div>
             @else
                 <div class="alert alert-danger" role="alert">
-                    ❌ Unable to connect to {{env('DB_DATABASE').'@'.env('DB_HOST')}}. Please ensure you can reach your database before running Holiday (Error 01)
+                    ❌ Unable to connect to {{env('DB_DATABASE').'@'.env('DB_HOST')}}. Please ensure you can reach your database before running Element (Error 01)
                 </div>
             @endif
         </div>
@@ -115,7 +115,7 @@
   <footer class="my-5 pt-5 text-muted text-center text-small">
     <p class="mb-1">&copy; {{date('Y')}} Genericmilk</p>
     <ul class="list-inline">
-      <li class="list-inline-item"><a href="https://github.com/genericmilk/holiday">GitHub</a></li>
+      <li class="list-inline-item"><a href="https://github.com/genericmilk/element">GitHub</a></li>
     </ul>
   </footer>
 </div>
