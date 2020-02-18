@@ -1,0 +1,31 @@
+body{
+    background-color: @body;
+    ul.modules{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        overflow-x: auto;
+        overflow-y: hidden;
+        height: 62px;
+        white-space: nowrap;
+        li{
+            float: left;
+            color: white;
+            padding: 10px;
+            font-size: 28px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: @blue;
+            height: 62px;
+            width: 62px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+
+            &:hover{
+                background-color: @pink;
+                color: @body;
+            }
+
+        }
+    }
+}

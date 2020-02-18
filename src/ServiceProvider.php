@@ -9,7 +9,7 @@
         {
             $this->setupConfig(); // Load config
             $this->loadRoutesFrom(__DIR__.'/routes/web.php'); // Import routes
-            $this->loadViewsFrom(__DIR__.'/views', 'element'); // Import views
+            $this->loadViewsFrom(__DIR__.'/resources/views', 'element'); // Import views
         }
         public function register()
         {
