@@ -1,6 +1,6 @@
 <?php
 
-namespace Genericmilk\Element;
+namespace Element\Core;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;

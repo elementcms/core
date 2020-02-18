@@ -1,5 +1,5 @@
 {
-    "name": "genericmilk/element",
+    "name": "elementcms/core",
     "description": "Easily manage, create and rollback your migrations in a user friendly dashboard",
     "keywords": ["laravel", "database", "migrations"],
     "license": "MIT",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Genericmilk\\Element\\": "src/"
+            "Element\\Core\\": "src/"
         }
     },
     "minimum-stability": "dev",
@@ -25,7 +25,7 @@
         },
         "laravel": {
             "providers": [
-                "Genericmilk\\Element\\ServiceProvider"
+                "Element\\Core\\ServiceProvider"
             ]
         }
     },

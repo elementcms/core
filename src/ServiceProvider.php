@@ -1,5 +1,5 @@
 <?php
-    namespace Genericmilk\Element;
+    namespace Element\Core;
 
     class ServiceProvider extends \Illuminate\Support\ServiceProvider{
 
@@ -14,7 +14,7 @@
         public function register()
         {
             // Import controllers
-            $this->app->make('Genericmilk\Element\Core\Ui');
+            $this->app->make('Element\Core\Ui');
             
         }
 

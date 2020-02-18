@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types=1);
-namespace Genericmilk\Element\Facades;
+namespace Element\Core\Facades;
 use Illuminate\Support\Facades\Facade;
 
 class Element extends Facade
